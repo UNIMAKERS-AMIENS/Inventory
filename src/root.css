@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.input-primary {
+		@apply w-full p-2 rounded-md text-white outline-none bg-gray-700 border-b-2 border-blue-500;
+	}
+
+	.btn-primary {
+		@apply w-full bg-blue-700 py-2 rounded-md hover:bg-blue-900;
+	}
+}
